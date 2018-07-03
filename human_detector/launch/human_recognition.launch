@@ -1,7 +1,0 @@
-<launch>
-  <!--include file="$(find velodyne_pointcloud)/launch/32e_points.launch" /-->
-  <node name="rm_node20" pkg="velodyne_height_map" type="rm_node20" />
-  <node name="velodyne_index_2time" pkg="classification" type="velodyne_index_2time" />
-  <!--node name="velodyne_filtered" pkg="human_detection" type="velodyne_filtered" /-->
-  <node name="human_recognition" pkg="classification" type="human_recognition" output="screen" />
-</launch>

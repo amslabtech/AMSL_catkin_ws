@@ -1,8 +1,0 @@
-<launch>
-  <node name="rm_ground_node" pkg="rwrc14_tyokota" type="rm_ground_node" />
-  <node name="index_objects" pkg="rwrc14_tyokota" type="index_objects" />
-  <node name="velodyne_index" pkg="rwrc14_tyokota" type="velodyne_index" />
-  <node name="sitting_detection" pkg="rwrc14_tyokota" type="sitting_detection"/>
-  <node name="vtoi_0" pkg="rwrc14_tyokota" type="vtoi_0" output="screen"/>
-  <node name="vdraw_cam0" pkg="rwrc14_tyokota" type="vdraw_cam0"/>
-</launch>

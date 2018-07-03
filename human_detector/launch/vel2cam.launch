@@ -1,7 +1,0 @@
-<launch>
-
-  <!--node name="vtoi_1" pkg="human_detection" type="vtoi_1" /-->
-  <node name="vdraw_cam1" pkg="human_detection" type="vdraw_cam1" output="screen"/>
-
-
-</launch>

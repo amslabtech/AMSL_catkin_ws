@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node name="rm_node20" pkg="velodyne_height_map" type="rm_node20" />
-  <node name="cpu_clustering_sq1" pkg="clustering" type="cpu_clustering_sq1" />
-  <!-- <node name="test_human_detection" pkg="classification" type="test_human_detection_v2" output="screen" /> -->
-  <node name="test_human_detection_sq1" pkg="human_detection" type="sq1_human_detection_v2" output="screen"/>
-  <node name="rwrc14_remove_cluster_for_3dmap_sq1" pkg="human_detection" type="rwrc14_remove_cluster_for_3dmap_sq1" output="screen" />
-  <!-- <node name="remove_cluster_for_3dmap" pkg="human_detection" type="remove_cluster_for_3dmap" output="screen" /> -->
-</launch>
