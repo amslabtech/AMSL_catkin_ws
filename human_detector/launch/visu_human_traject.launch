@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rm_node20" pkg="velodyne_height_map" type="rm_node20" />
+  <node name="velodyne_index_2time" pkg="classification" type="velodyne_index_2time" />
+  <node name="cpu_clustering" pkg="clustering" type="cpu_clustering" />
+  <node name="test_human_detection" pkg="classification" type="test_human_detection_v2"/>
+  <node name="visu_kf_traject" pkg="tracking" type="visu_kf_traject"/>
+  <node name="remove_cluster_v2" pkg="classification" type="remove_cluster_v2"/>
+</launch>
