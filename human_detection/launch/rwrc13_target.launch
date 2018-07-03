@@ -1,0 +1,30 @@
+<launch>
+
+  <node name="human_detection" pkg="human_detection" type="human_detection" output="screen" />
+  <node name="vtoi_0" pkg="human_detection" type="vtoi_0" />
+  <node name="vtoi_1" pkg="human_detection" type="vtoi_1" />
+  <node name="vtoi_2" pkg="human_detection" type="vtoi_2" />
+  <node name="vdraw_cam0" pkg="human_detection" type="vdraw_cam0" />
+  <node name="vdraw_cam1" pkg="human_detection" type="vdraw_cam1" />
+  <node name="vdraw_cam2" pkg="human_detection" type="vdraw_cam2" />
+    
+     <node name="image_view0" pkg="image_view" type="image_view" >
+       <remap from="image" to="specify_object/image_crop_0" />
+       <param name="autosize" value="false" />
+       <param name="blurry" value="false" />
+       <param name="window_name" value="specify_object/image_crop_0" />
+    </node>
+     <node name="image_view1" pkg="image_view" type="image_view" >
+       <remap from="image" to="specify_object/image_crop_1" />
+       <param name="autosize" value="false" />
+       <param name="blurry" value="false" />
+       <param name="window_name" value="specify_object/image_crop_1" />
+    </node>
+     <node name="image_view2" pkg="image_view" type="image_view" >
+       <remap from="image" to="specify_object/image_crop_2" />
+       <param name="autosize" value="false" />
+       <param name="blurry" value="false" />
+       <param name="window_name" value="specify_object/image_crop_2" />
+    </node>
+</launch>
+

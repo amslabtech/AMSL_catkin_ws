@@ -1,0 +1,6 @@
+<launch>
+  <node name="rm_ground_node" pkg="rwrc14_tyokota_velodyne_height_map" type="rm_ground_node" />
+  <node name="human_detection" pkg="rwrc14_human_detection" type="human_detection" output="screen"/>
+  <node name="rwrc14_normal_estimation_tyokota" pkg="rwrc14_tyokota" type="rwrc14_normal_estimation_tyokota" />
+  <node name="rwrc14_curvature_tyokota" pkg="rwrc14_tyokota" type="rwrc14_curvature_tyokota" />
+</launch>

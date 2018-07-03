@@ -1,0 +1,14 @@
+optimization finished, #iter = 3038
+nu = 0.013520
+obj = -808.459126, rho = 1.590401
+nSV = 446, nBSV = 15
+Total nSV = 446
+
+svm_type c_svc
+kernel_type rbf
+gamma 0.7071
+nr_class 2
+total_sv 446
+rho 1.5904
+label 1 -1
+nr_sv 229 217
